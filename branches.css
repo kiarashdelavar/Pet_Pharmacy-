@@ -1,0 +1,172 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.branches-page {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 1.5rem;
+}
+
+.branch-heading {
+    text-align: center;
+    font-size: 2rem;
+    color: #0077cc;
+    margin-bottom: 2.5rem;
+}
+
+.branch-card {
+    background: white;
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s;
+}
+
+.branch-card:hover {
+    transform: translateY(-3px);
+}
+
+.branch-card h3 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.branch-card p {
+    margin: 0.5rem 0;
+    color: #444;
+    font-size: 0.95rem;
+}
+
+.branch-card i {
+    color: #0077cc;
+    margin-right: 6px;
+}
+
+.branch-img {
+    width: 100%;
+    height: auto;
+    max-height: 320px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.coming-soon {
+    background-color: #f0f0f0;
+    border-left: 5px dashed #999;
+    color: #555;
+}
+
+.footer-blue {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+    font-size: 0.95rem;
+}
+
+.blue-nav-header {
+    background-color: #0077cc;
+    color: white;
+    padding: 0.8rem 0 1.2rem;
+    text-align: center;
+}
+
+.blue-nav-header .top-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.nav-links {
+    margin-top: 0.2rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: underline;
+    margin: 0 1rem;
+    font-size: 1rem;
+}
+
+.nav-links a.active {
+    text-decoration: underline;
+}
+
+.nav-links button {
+    background-color: white;
+    color: #0077cc;
+    border: none;
+    padding: 6px 12px;
+    margin-left: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nav-links button:hover {
+    background-color: #e5e5e5;
+}
+
+@media (max-width: 768px) {
+    .branches-page {
+        padding: 1rem;
+        margin: 1rem;
+        max-width: 100%;
+    }
+
+    .branch-heading {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .branch-card {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .branch-card h3 {
+        font-size: 1.2rem;
+    }
+
+    .branch-card p {
+        font-size: 0.95rem;
+    }
+
+    .branch-img {
+        max-height: 200px;
+    }
+
+    .blue-nav-header .top-title {
+        font-size: 1.5rem;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .nav-links a {
+        font-size: 0.95rem;
+    }
+
+    .nav-links button {
+        width: 90%;
+        padding: 0.6rem;
+    }
+
+    .footer-blue {
+        font-size: 0.85rem;
+        padding: 0.8rem;
+    }
+}

@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f8fb;
+    color: #333;
+}
+
+.blue-header {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem 1rem;
+}
+
+.main-title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.nav-bar a {
+    color: white;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+.nav-bar a.active {
+    font-weight: bold;
+}
+
+.nav-bar button {
+    font-size: 0.95rem;
+    font-weight: bold;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.about-container {
+    background: white;
+    max-width: 960px;
+    margin: 2rem auto;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+.about-container p {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.section-box {
+    background-color: #e0f3ff;
+    color: #005fa3;
+    font-weight: bold;
+    padding: 0.6rem;
+    border-radius: 8px;
+    text-align: center;
+    margin: 2rem 0 1rem;
+    font-size: 1.15rem;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.about-images {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.about-images img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.about-images img:hover {
+    transform: scale(1.03);
+}
+
+.footer {
+    background-color: #0077cc;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 4rem;
+    font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+    .blue-header {
+        padding: 1.5rem 1rem;
+    }
+
+    .main-title {
+        font-size: 1.5rem;
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.6rem;
+    }
+
+    .nav-bar a {
+        font-size: 0.95rem;
+    }
+
+    .nav-bar button {
+        width: 90%;
+        padding: 0.5rem 1rem;
+    }
+
+    .about-container {
+        padding: 1.5rem;
+        margin: 1rem;
+        max-width: 100%;
+    }
+
+    .about-container p {
+        font-size: 1rem;
+    }
+
+    .section-box {
+        font-size: 1rem;
+        padding: 0.5rem;
+    }
+
+    .about-images {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-images img {
+        max-width: 90%;
+    }
+
+    .footer {
+        font-size: 0.85rem;
+        padding: 0.8rem;
+    }
+}

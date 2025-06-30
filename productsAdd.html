@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add/Edit Product</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script defer src="../js/productsAdd.js" ></script>
+</head>
+<body>
+<header>
+    <h1>Add/Edit Product</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="suppliers.html">Suppliers</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About Us</a>
+        <a href="branches.html">Branches</a>
+        <a href="SuppliersAdd.html"><button>Add New Supplier</button></a>
+    </nav>
+</header>
+
+<main>
+    <form id="productForm">
+        <label>Product Name:
+            <input type="text" id="productName" required />
+        </label>
+        <label>Description:
+            <input type="text" id="productDescription" required />
+        </label>
+        <label>Category:
+            <select id="productCategory" required>
+                <option value="">Select category</option>
+                <option value="dog">Dog</option>
+                <option value="cat">Cat</option>
+                <option value="bird">Bird</option>
+                <option value="livestock">Livestock</option>
+            </select>
+        </label>
+        <label>Supplier:
+            <select id="productSupplier" required></select>
+        </label>
+        <label>Price (€):
+            <input type="number" id="productPrice" required />
+        </label>
+        <label>Stock:
+            <input type="number" id="productStock" required />
+        </label>
+
+        <input type="hidden" id="productId" />
+
+        <div class="form-actions">
+            <button type="submit" class="green-btn">Save</button>
+            <button type="button" class="red-btn" id="cancelBtn">Cancel</button>
+        </div>
+
+        <p id="formMessage"></p>
+    </form>
+
+    <section class="Existing-Products">
+        <h2>Existing Products</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Supplier</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Description</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody id="productTableBody"></tbody>
+        </table>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Dr. Delavar Veterinary Pharmacy</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script defer src="../js/products.js" ></script>
+</head>
+<body>
+<header>
+    <h1>Our Products</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="branches.html">Branches</a>
+        <a href="suppliers.html">Suppliers</a>
+        <a href="SuppliersAdd.html"><button>Add New Supplier</button></a>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Products</h2>
+        <div class="filter-section">
+            <label>Name:
+                <input type="text" id="filterName" />
+            </label>
+
+            <label>Category:
+                <select id="filterCategory">
+                    <option value="">All</option>
+                    <option value="dog">Dog</option>
+                    <option value="cat">Cat</option>
+                    <option value="bird">Bird</option>
+                    <option value="livestock">Livestock</option>
+                </select>
+            </label>
+            <label>Supplier:
+                <select id="filterSupplier">
+                    <option value="">All</option>
+                </select>
+            </label>
+            <button id="applyFilterBtn">Apply Filter</button>
+        </div>
+        <div class="top-controls">
+            <div class="filters">
+            </div>
+            <div class="add-btn">
+                <a href="productsAdd.html"><button class="green-btn">+ Add Product</button></a>
+            </div>
+        </div>
+        <table>
+            <thead>
+            <tr>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Supplier</th>
+                <th>Price</th>
+                <th>Stock</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody id="productList">
+            <tr><td colspan="7">Loading products...</td></tr>
+            </tbody>
+        </table>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Dr. Delavar Veterinary Pharmacy</p>
+</footer>
+</body>
+</html>

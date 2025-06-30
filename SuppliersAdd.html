@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add/Edit Suppliers</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script defer src="../js/supplierAdd.js"></script>
+</head>
+<body>
+<header>
+    <h1>Add/Edit Supplier</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="branches.html">Branches</a>
+        <a href="products.html">Products</a>
+        <a href="suppliers.html">Suppliers</a>
+        <a href="productsAdd.html"><button>Add New Product</button></a>
+    </nav>
+</header>
+
+<main>
+    <section class="supplier-form">
+        <form id="supplierForm">
+            <div class="form-group">
+                <label for="supplierName">Supplier Name:</label>
+                <input type="text" id="supplierName" required />
+            </div>
+
+            <div class="form-group">
+                <label for="supplierEmail">Email Address:</label>
+                <input type="email" id="supplierEmail" required />
+            </div>
+
+            <input type="hidden" id="supplierId" />
+
+            <div class="form-actions">
+                <button type="submit" class="green-btn">Save</button>
+                <button type="button" id="cancelEditBtn" class="red-btn">Cancel</button>
+            </div>
+        </form>
+
+        <p id="formMessage"></p>
+    </section>
+
+    <section class="Existing Suppliers">
+        <h2>Existing Suppliers</h2>
+        <table>
+            <thead>
+            <tr>
+                <th>Supplier Name</th>
+                <th>Email</th>
+                <th>Actions</th>
+            </tr>
+            </thead>
+            <tbody id="supplierList"></tbody>
+        </table>
+    </section>
+</main>
+
+<footer>
+    <p>© 2025 Dr. Delavar Veterinary Pharmacy</p>
+</footer>
+</body>
+</html>
