@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="415c4bd0-92d3-4c7c-8b77-87b429405887" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2y6qJsK6nO2ZtzH2JuId0UuaMCb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.Server.js.executor": "Run",
+    "Node.js.index.js.executor": "Run",
+    "Node.js.initData.js.executor": "Run",
+    "Node.js.main.js.executor": "Run",
+    "Node.js.productController.js.executor": "Run",
+    "Node.js.products.js.executor": "Run",
+    "Node.js.supplier.js.executor": "Run",
+    "Node.js.supplierController.js.executor": "Run",
+    "Node.js.suppliers.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "D:/Saxion Programme/1st year/Q4/Web basics/PetPharmacy",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.dev.executor": "Run",
+    "npm.start.executor": "Run",
+    "npm.test.executor": "Run",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.1\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Saxion Programme\Q4\Web basics\PetPharmacy\frontend\pages" />
+      <recent name="D:\Saxion Programme\Q4\Web basics\PetPharmacy\backend\src" />
+      <recent name="D:\Saxion Programme\Q4\Web basics\PetPharmacy\backend" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/backend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-WS-251.23774.424" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="415c4bd0-92d3-4c7c-8b77-87b429405887" name="Changes" comment="" />
+      <created>1749165301628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749165301628</updated>
+      <workItem from="1749165302726" duration="5265000" />
+      <workItem from="1749246482216" duration="1855000" />
+      <workItem from="1749295768182" duration="631000" />
+      <workItem from="1749408672047" duration="7205000" />
+      <workItem from="1749416671994" duration="5585000" />
+      <workItem from="1749463895912" duration="22077000" />
+      <workItem from="1749508668699" duration="28000" />
+      <workItem from="1749560057388" duration="2023000" />
+      <workItem from="1749595433427" duration="7053000" />
+      <workItem from="1749662578825" duration="1600000" />
+      <workItem from="1749668875734" duration="8250000" />
+      <workItem from="1749679487172" duration="1024000" />
+      <workItem from="1749680533970" duration="335000" />
+      <workItem from="1749680883232" duration="217000" />
+      <workItem from="1749681109385" duration="434000" />
+      <workItem from="1749712286369" duration="258000" />
+      <workItem from="1749729067517" duration="938000" />
+      <workItem from="1749748346365" duration="638000" />
+      <workItem from="1749816437743" duration="2134000" />
+      <workItem from="1749819145094" duration="63000" />
+      <workItem from="1749819215591" duration="351000" />
+      <workItem from="1749819581228" duration="882000" />
+      <workItem from="1749820474851" duration="62000" />
+      <workItem from="1749820544275" duration="3524000" />
+      <workItem from="1749842818456" duration="790000" />
+      <workItem from="1749903689984" duration="4400000" />
+      <workItem from="1749936786432" duration="3663000" />
+      <workItem from="1749985573004" duration="7159000" />
+      <workItem from="1751282008757" duration="635000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
